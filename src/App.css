@@ -1,0 +1,47 @@
+.dark {
+  --color-primary: #2d3748;
+  --color-secondary: #283141;
+  --color-text-primary: #dbdbdb;
+}
+
+.light {
+  --color-primary: #ffffff;
+  --color-secondary: #edf2f7;
+  --color-text-primary: #2d3748;
+}
+
+body {
+  background-color: var(--color-primary);
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.theme-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.theme-container {
+  color: var(--color-text-primary);
+  cursor: pointer;
+}
+
+.change-color {
+  color: var(--color-text-primary);
+}
+
+.lorem-ipsum-text {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 3rem;
+  margin: 0 1rem;
+  color: var(--color-text-primary);
+  border: solid 1px var(--color-text-primary);
+}
