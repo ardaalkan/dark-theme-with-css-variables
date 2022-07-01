@@ -1,4 +1,4 @@
-## Example of using **dark theme** with css variables.
+# Example of using **dark theme** with css variables.
 
 #### - It is a simple notation that can be implemented to control the dark and light state of the application with css variables and binding.
 
